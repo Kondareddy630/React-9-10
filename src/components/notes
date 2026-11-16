@@ -1,0 +1,51 @@
+Databinding
+---------------------
+Data-binding means  it is a process of access the data from
+data source(variables,arrays,objects,api,databases) render on the ui.
+In javascript you want implement the data databinding you have to use
+lot of dom methods and dom properties.
+
+But in react data binding is managed by only binding expression that is
+"{}"
+
+In react data-binding is divided into two types
+
+1.one-way binding
+2.two-way binding
+
+one-way binding:
+----------------
+one-way binding means access the data from data soucre render on the ui.
+----------------
+one-way binding means access the data from data soucre render on the ui.
+but by default react support one way binding.
+
+two-way binding:
+----------------
+two-way binding means access the data from data soucre render on the ui.
+it identify the changes on the ui updated to data source.
+
+
+Javascript
+----------
+let message="Good morning";
+
+<p id="p1"></p>
+document.getElementById("p1").innerText=message;
+
+React
+----------
+<h1>{message}</h1>
+<p>{message}</p>
+
+ useState Hook(FAQ)
+----------------------
+The useState() hook is one of the most important hooks in React. It is used to create and manage state (data) inside functional components.
+
+useState() is a React Hook that allows us to store data in a functional component and update that data whenever required.
+
+const [state, setState] = useState(initialValue);
+
+state=>variable
+setState=>method for update the state data
+useState()=> function for store the data
