@@ -49,3 +49,12 @@ const [state, setState] = useState(initialValue);
 state=>variable
 setState=>method for update the state data
 useState()=> function for store the data
+
+
+List Rendering in React:
+---------------------------------
+
+"Accessing the elements of a JavaScript array and displaying them in an ordered or structured format on the UI is called List Rendering in React."
+
+In React List Rendering, each repeated item should be identified by a unique key prop.
+"React uses the unique key prop to identify individual elements in a list and efficiently update the UI when elements are added, modified, or deleted."

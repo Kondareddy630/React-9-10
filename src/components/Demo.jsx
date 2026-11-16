@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function Demo()
 {
@@ -7,6 +7,14 @@ const[state,setState]=useState("welcome to react");
 const[count,setCount] =useState(0);
 const[message,setMessage]=useState("hello");
 
+
+useEffect(()=>{
+
+    setState("Welcome to Js");
+    setCount(300);
+    setMessage("Hello students");
+
+},[]);
 
 
 

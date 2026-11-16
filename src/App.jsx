@@ -2,6 +2,7 @@ import Banner from "./components/Banner";
 import Cards from "./components/Cards";
 import Demo from "./components/Demo";
 import Header from "./components/Header";
+import Listrender1 from "./components/Listrender1";
 
 
 function App()
@@ -13,9 +14,11 @@ function App()
   
 {/* <Header></Header>
 <Banner></Banner>
-<Cards></Cards> */}
-
+<Cards></Cards> 
 <Demo></Demo>
+*/}
+
+<Listrender1></Listrender1>
 
     
           
