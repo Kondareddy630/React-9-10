@@ -58,3 +58,15 @@ List Rendering in React:
 
 In React List Rendering, each repeated item should be identified by a unique key prop.
 "React uses the unique key prop to identify individual elements in a list and efficiently update the UI when elements are added, modified, or deleted."
+
+
+1. What are Props in React?
+------------------------------------
+Props (Properties) are used to pass data from one component(parent) to another component(parent).
+
+Props allow us to make components reusable and dynamic.
+- Props are passed from Parent Component to Child Component.
+- Props are read-only.
+- Props can contain strings, numbers, booleans, arrays, objects, functions and JSX.
+- Props help us reuse components.
+Real-time example: A parent component passes student details to a Student component.
